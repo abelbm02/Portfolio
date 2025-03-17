@@ -26,8 +26,7 @@ body {
     gap: 20px;
     align-items: start;
     grid-template-areas: 
-        "header header"
-        "main  aside"
+        "contenido  aside"
         "footer  footer";
     flex-grow: 1;
 }
@@ -40,9 +39,9 @@ header {
     grid-area: header;
 }
 
-main {
+.contenido {
     padding: 15px;
-    grid-area: main;
+    grid-area: contenido;
 }
 
 aside {
@@ -69,7 +68,7 @@ footer {
     background: #292828b9;
     color: rgba(0, 0, 0, 0.795);
     text-align: center;
-    padding: 12px 0;
+    padding: 12px;
     grid-area: footer;
     margin-top: auto;
 }
