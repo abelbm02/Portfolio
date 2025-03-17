@@ -4,62 +4,60 @@
     margin: 0;
     padding: 0;
     color: white;
-  }
-  
-  body {
-        background-color: black;      
-        background-repeat: no-repeat;
-      height: 100vh;
-  }
-  
-  header {
-      color: #fff;
-      padding: 10px 0;
-      text-align: center;
-  }
-  
-  aside {
-      color: #fff;
-      padding: 10px 0;
-      text-align: center;
-  }
-  
-  footer {
-      color: #fff;
-      padding: 10px 0;
-      text-align: center;
-  }
+    text-align: center;
+}
 
-  a{
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(122, 116, 116, 0.473);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav a {
+    margin: 20px;
+}
+
+aside {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
     text-decoration: none;
     color: white;
-  }
+}
 
-  a:hover{
-    color: rgb(201, 28, 201);
-  }
-  
-  .container{
+a:hover {
+    color: #00bf62;
+}
+
+.container {
     background-color: rgba(122, 116, 116, 0.473);
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-    }
+}
 
-    #foto1{
-        width: 60px;
-        height: auto;
-        margin: 20px;
-    }
-
-    #foto2{
-        width: 100px;
-        height: auto;
-        margin: 20px;
-    }
-
-    #foto3{
-        width: 72px;
-        height: auto;
-        margin: 20px;
-    }
+/* Estilo para las imágenes con la clase 'foto' */
+.foto {
+    width: 100px; /* Establece un tamaño común para todas las imágenes */
+    height: auto;
+    margin: 20px;
+}
