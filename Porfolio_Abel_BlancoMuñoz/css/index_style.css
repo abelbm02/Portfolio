@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arvo", "sans-serif";
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -55,9 +55,8 @@ a:hover {
     margin: 20px;
 }
 
-/* Estilo para las imágenes con la clase 'foto' */
 .foto {
-    width: 100px; /* Establece un tamaño común para todas las imágenes */
-    height: auto;
+    width: 120px;
+    height: 100%;
     margin: 20px;
 }
