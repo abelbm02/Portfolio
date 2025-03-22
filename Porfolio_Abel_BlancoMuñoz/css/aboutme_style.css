@@ -30,7 +30,6 @@ header {
 nav a {
     margin: 20px;
     color: #00bf62;
-    font-size: 1.2rem;
 }
 
 footer {
@@ -54,11 +53,11 @@ a:hover {
     background-color: rgba(122, 116, 116, 0.473);
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;
+    margin: 30px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    font-size: x-large;
 }
 
 footer img {
@@ -67,3 +66,15 @@ footer img {
     margin: 20px;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "div img";  
+}
+
+hr{
+    border: 1px solid #00bf62;
+    width: 80%;
+    margin: 20px auto;
+}
