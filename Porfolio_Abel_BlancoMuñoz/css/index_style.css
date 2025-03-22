@@ -8,28 +8,36 @@
     text-align: center;
 }
 
+.titulo{
+    color: #00bf62;
+}
+
 body {
     background-color: black;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 header {
+    grid-area: header;
     background-color: rgba(122, 116, 116, 0.473);
     padding: 10px 0;
     text-align: center;
     margin: 20px;
-    padding: 10px;
     border-radius: 20px;
 }
 
 nav a {
     margin: 20px;
+    color: #00bf62;
 }
 
 footer {
-    padding: 10px 0;
-    text-align: center;
+    grid-area: footer;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px;
 }
 
 a {
@@ -37,14 +45,16 @@ a {
 }
 
 a:hover {
-    color: #00bf62;
+    color: white;
 }
 
 .container {
+    grid-area: container1;
     background-color: rgba(122, 116, 116, 0.473);
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
+
 }
 
 .foto {
@@ -53,30 +63,37 @@ a:hover {
     margin: 20px;
 }
 
-.container2{
+.container2 {
+    grid-area: container2;
     background-color: rgba(122, 116, 116, 0.473);
     border-radius: 20px;
-    padding: 20px;
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.cuadrado{
+.cuadrado {
     border-radius: 200px;
     padding: 20px;
-    background-color: #00bf62;
+    background: linear-gradient(to right, #00bf62, #808080);
     margin: 10px;
-    width: 200px;
+    width: 50%;
     text-align: center;
     position: relative;
 }
 
-@keyframes moverDerecha {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: calc(100% - 220px); /* Ajusta según el ancho del cuadrado */
-    }
+.container3 {
+    grid-area: container3;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer img {
+    height: auto;
+    width: 80px;
+    margin: 20px;
 }
