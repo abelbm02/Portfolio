@@ -3,7 +3,8 @@
     font-weight: bold;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #fff;
+    align-items: center;
     text-align: center;
 }
 
@@ -15,7 +16,6 @@ body {
 
 header {
     background-color: rgba(122, 116, 116, 0.473);
-    color: #fff;
     padding: 10px 0;
     text-align: center;
     margin: 20px;
@@ -27,21 +27,13 @@ nav a {
     margin: 20px;
 }
 
-aside {
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
 footer {
-    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 a:hover {
@@ -59,4 +51,32 @@ a:hover {
     width: 120px;
     height: 100%;
     margin: 20px;
+}
+
+.container2{
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadrado{
+    border-radius: 200px;
+    padding: 20px;
+    background-color: #00bf62;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+@keyframes moverDerecha {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 220px); /* Ajusta según el ancho del cuadrado */
+    }
 }
