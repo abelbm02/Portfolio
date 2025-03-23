@@ -62,3 +62,16 @@ footer img {
     width: 80px;
     margin: 20px;
 }
+
+hr {
+    border: 1px solid #00bf62;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+.container img {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 20px;
+}
