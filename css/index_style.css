@@ -1,0 +1,99 @@
+* {
+    font-family: "Arvo", "sans-serif";
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo{
+    color: #00bf62;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+    background-color: rgba(122, 116, 116, 0.473);
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    margin: 20px;
+    color: #00bf62;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    grid-area: container1;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.foto {
+    width: 120px;
+    height: 100%;
+    margin: 20px;
+}
+
+.container2 {
+    grid-area: container2;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadrado {
+    border-radius: 200px;
+    padding: 20px;
+    background: linear-gradient(to right, #00bf62, #808080);
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.container3 {
+    grid-area: container3;
+    background-color: rgba(122, 116, 116, 0.473);
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer img {
+    height: auto;
+    width: 80px;
+    margin: 20px;
+}
